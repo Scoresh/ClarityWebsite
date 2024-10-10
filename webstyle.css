@@ -1,4 +1,4 @@
-body {
+.bodyMain {
     margin: 0;
     padding: 0;
     background: linear-gradient(#1e0050, #003366);
@@ -38,6 +38,7 @@ body {
 .bannerImage{
     width:700px !important;
     height:auto;
+    max-width:90%;
 }
 
 .navbar {
@@ -173,7 +174,8 @@ body {
 .aboutUsContainer {
     color: black;
     max-width: 100%;
-    margin: 0 auto;
+    margin: 20px 20px;
+    /* margin-top:20px; */
     padding: 0px 20px 20px 20px;
        
 }
@@ -203,7 +205,15 @@ img {
 }
 
 
+.privacyLink{
+    padding-bottom:10px;
 
+    color:rgb(113, 25, 163);
+    transition:color 0.3s ease;
+}
+.privacyLink:hover{
+    color:white;
+}
 
 .footerfun {
     
@@ -213,11 +223,103 @@ img {
     bottom:0;
 }
 .extrafooterfun{
-    
+    padding-top:10px;
     color: rgb(103, 103, 103);
     transition:color 0.3s ease;
     bottom:0;
 }
 .extrafooterfun:hover{
+    color:white;
+}
+
+/* privacy policy page  */
+.bodyPrivacy {
+    margin: 0;
+    padding: 0;
+    background: #1e0050;
+    /* background-repeat:no-repeat; */
+    color: #ffffff;
+    
+}
+.bigheaderContainerPrivacy {
+    top:0;
+    right:0;
+    left:0; 
+    z-index:1000;
+    background-color: #1e0050;
+    padding: 0 0;
+    text-align: center;
+    height:fit-content;
+    padding-bottom:30px;
+    box-sizing:border-box;
+}
+
+.policyBox{
+    width:90%;
+    margin-left:auto;
+    margin-right:auto;
+    max-width:70%;
+    border-radius:6px;
+    background-color:#4a179c;
+    height:auto;
+    padding:40px;
+    padding-top:5px;
+    margin-bottom:20px;
+
+}
+.policyBox h1{
+    font-size:60px;
+    text-align:center;
+}
+.policyBox p{
+    margin-left:20px;
+    margin-right:20px;
+    font-size:20px;
+    text-align:left;
+}
+.aboutPrivacy {
+    border-radius:10px;
+    margin-left:auto;
+    margin-right:auto;
+    max-width:70%;
+    padding: 60px 0;
+    background-color: #4a179c;
+    color:white;
+    text-align: center;
+}
+.aboutUsContainerPrivacy {
+    max-width: 70%;
+    margin-left:auto;
+    margin-right:auto;
+    /* margin-top:20px; */
+    padding: 0px 20px 20px 20px;
+       
+}
+
+.footerPrivacy {
+    margin-top:60px;
+    color: white;
+    background-color: #1a1f31;
+    padding: 20px 0;
+    bottom:0;
+    text-align: center;
+}
+
+.footerPrivacy p {
+    margin: 0;
+}
+.footerfunPrivacy{
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px 20px;
+    bottom:0;
+}
+.extrafooterfunPrivacy{
+    
+    color: rgb(103, 103, 103);
+    transition:color 0.3s ease;
+    bottom:0;
+}
+.extrafooterfunPrivacy:hover{
     color:white;
 }
