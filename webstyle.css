@@ -202,7 +202,13 @@
     font-size:1em;
     margin-top:20px;
 }
-
+.feature-icon {
+    color: black;
+    width: 100%;
+    margin-bottom: 20px;
+    font-size: 1.5em;
+    align-items: center;
+}
 .featuregifs {
     padding: 0px 0px;
     background-color: #d9d9d9;
